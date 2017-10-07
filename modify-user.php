@@ -152,7 +152,7 @@ if(empty($errors)){
 	</p>
 
 	<p>  
-		<label for="">&nbsp:</label>
+		<label for="">&nbsp</label>
 		<button type="submit" name="submit">Save</button>	
 	</p>
 	</form>
