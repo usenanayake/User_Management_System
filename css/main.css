@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+}
+body{
+	font-family: Arial;
+	font-size: 14px;
+
+
+}
+p{
+	margin-bottom: 15px;
+}
+p.info{
+	text-align: center;
+	background: green;
+	color: white;
+	padding : 10px;
+}
+div.errmsg{
+	color: red;
+}
+p.error{
+	text-align: center;
+	background: red;
+	color: white;
+	padding : 10px;
+}
+.login{
+	width: 350px;
+	margin: 200px auto; 
+}
+input{
+	display: block;
+	width: 400px; 
+	padding: 5px;
+	}
+
+ button{
+ 	width: 415px;
+ 	padding: 5px;
+}
+header{
+ 	background: #aaa;
+ 	overflow: auto;
+ 	padding: 5px;
+ }
+header .appname{
+	float: left;
+}
+header .loggedin{
+	float: right;
+}
+
+main{
+	width: 1000px;
+	margin: 300px auto;
+}
+
+main h1{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+main h1 span{
+ 	font-size: 20px;
+ }
+table.masterlist{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.masterlist th{
+	background: #aaa;
+	text-align: left;
+}
+
+table.masterlist th,table.masterlist td{
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+form.userform label{
+	width: 30%;
+	float: left;
+}
+
+form.userform input{
+	width: 60%;
+}
+
+form.userform button{
+	width: 200px;
+	
+}
+
+.errmsg{
+	margin: 20px 0;
+}
